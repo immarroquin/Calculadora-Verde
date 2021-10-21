@@ -1,0 +1,28 @@
+{
+  "name": "calculadora-verde-bbva",
+  "version": "1.0.0",
+  "description": "Calculadora verde",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immarroquin/Calculadora-Verde-BBVA.git"
+  },
+  "keywords": [
+    "Calculadora",
+    "verde",
+    "huella",
+    "de",
+    "carbono",
+    "bbva",
+    "Co2"
+  ],
+  "author": "Diana Buitrago, Gabriela Paez, Jessica Toro, Yurany Toloza, Estefania Rabih, Lorena Marroquin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immarroquin/Calculadora-Verde-BBVA/issues"
+  },
+  "homepage": "https://github.com/immarroquin/Calculadora-Verde-BBVA#readme"
+}
