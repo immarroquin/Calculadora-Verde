@@ -68,3 +68,11 @@ form > input{
     font-family: 'Montserrat', sans-serif;
     
 }
+.content-result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unit-mass{
+    margin-top: 5px;
+}
