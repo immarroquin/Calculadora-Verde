@@ -19,11 +19,13 @@
     "bbva",
     "Co2"
   ],
-  "author": "Diana Buitrago, Gabriela Paez, Jessica Toro, Yurany Toloza, Estefania Rabih, Lorena Marroquin", 
- 
+  "author": "Diana Buitrago, Gabriela Paez, Jessica Toro, Yurany Toloza, Estefania Rabih, Lorena Marroquin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/immarroquin/Calculadora-Verde-BBVA/issues"
   },
-  "homepage": "https://github.com/immarroquin/Calculadora-Verde-BBVA#readme"
+  "homepage": "https://github.com/immarroquin/Calculadora-Verde-BBVA#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
