@@ -1,3 +1,4 @@
+const data = require('./mysql.js')
 /*  
 // se pregunta el sector de la empresa (solo para la parte de las soluciones)
 
@@ -11,6 +12,10 @@ Si el número es muy pequeño en toneladas de CO2 ponerlo en kg (para que se vea
 */
 
 /* Se convierte el valor pagado en energia a Mw/h */
+
+data().then((res) => {
+console.log(res);
+}).catch(error => console.log(error))
 
 let energyValue;  /* valor de consumo por año */
 let months;  /* numero de meses pagados */
