@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/immarroquin/Calculadora-Verde-BBVA#readme",
   "dependencies": {
+    "mysql": "^2.18.1",
     "@babel/core": "^7.6.2",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-jest": "^27.0.1",
