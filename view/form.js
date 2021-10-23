@@ -8,24 +8,24 @@ export const form = () => {
       <p class= 'title'>Caribe</p>
       <p class= 'sub-title'>Calcula tu huella de carbono</p>
     </section>
-    <div class= ' div-selects responsive center-align row  '>
-    <select class="browser-default col s6 responsive ">
-      <option value="" disabled selected>Choose your option</option>
-      <option value="1">Option 1</option>
-      <option value="2">Option 2</option>
-      <option value="3">Option 3</option>
+    <div class= ' div-selects responsive '>
+    <select class="selects browser-default  responsive ">
+      <option class='options' value="" disabled selected>Selecciona tu sector</option>
+      <option class='options' value="1">Option 1</option>
+      <option class='options' value="2">Option 2</option>
+      <option class='options' value="3">Option 3</option>
     </select>
-    <select class="browser-default col s6 responsive">
-      <option value="" disabled selected>Choose your option</option>
-      <option value="1">Option 1</option>
-      <option value="2">Option 2</option>
-      <option value="3">Option 3</option>
+    <select class="selects browser-default  responsive ">
+      <option class='options' value="" disabled selected>Selecciona tu Estado</option>
+      <option class='options' value="1">Option 1</option>
+      <option class='options' value="2">Option 2</option>
+      <option class='options' value="3">Option 3</option>
     </select>
     </div>
     <div class=" container-form responsive">
     <div class="section-form ">
       <form  class="responsive ">
-        <p class= 'question'>Pregunta 1</p>
+        <p class= 'question'>Pregunta 1dsdsddddddddddd</p>
         <input  type="text" placeholder="12345kg" />
         <p class= 'question '>Pregunta 2 </p>
         <input  type="text" placeholder="12345kg" />
@@ -33,7 +33,9 @@ export const form = () => {
         <input  type="text" placeholder="12345kg" />
         <p class= 'question'>Pregunta 4</p>
         <input  type="text" placeholder="12345kg" />
-        <a href='#/solutions' class="waves-effect waves-light btn">CALCULAR</a>
+        <div class="div-btn-clo">
+        <a href='#/solutions' class="btn-clo waves-effect waves-light btn">CALCULAR</a>
+        </div>
       </form>
     </div> 
     </div>`
