@@ -8,7 +8,7 @@ export const solutions = () => {
       <p class= 'sub-title'>Tu huella de carbono es</p>
     </section>
     <div class=' content-result'>
-  <h2 class= 'result'>23</h2>
+  <h2 class= 'result'>${parseFloat(localStorage.getItem("calculo")*1000).toFixed(2)}</h2>
   <p class='unit-mass'>gs</p>
 </div>
 <section class=" center-align">
