@@ -1,4 +1,4 @@
-const  formExport  = require('./view/form.js') ;
+const  db  = require("./mysql.js") ;
 const  solutions  = require('./view/solutions.js') ;
 
  const views = (hash) => {
@@ -7,7 +7,7 @@ const  solutions  = require('./view/solutions.js') ;
 
   switch (hash) {
     case '':
-      containerRoute.appendChild(formExport());
+      containerRoute.appendChild(db.formExportMy());
       break;
     case '#/solutions':
       containerRoute.appendChild(solutions());

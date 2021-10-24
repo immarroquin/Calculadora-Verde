@@ -1,3 +1,7 @@
+/* const convert = require("../mysql.js");
+
+convert(599421, 12, "Distrito Federal");
+ */
 const formExport = () => {
   const divForm = document.createElement("div");
   divForm.setAttribute("class", "div-form ");
