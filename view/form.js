@@ -4,7 +4,7 @@ export const form = () => {
     divForm.setAttribute('class', 'div-form ');
     const viewForm = ` 
     <section class=" section-hdr center-align">
-      <img src='img/logo.png' alt='logo' id='logo' class='responsive-img' width='120'/>
+      <img src='img/logo.png' alt='logo' id='logo' class='responsive-img' width='100'/>
       <p class= 'title'>Caribe</p>
       <p class= 'sub-title'>Calcula tu huella de carbono</p>
     </section>
