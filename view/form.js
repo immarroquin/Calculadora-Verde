@@ -317,6 +317,7 @@ export const form = () => {
       console.log(divForm.querySelector("#energy-val").value);
       console.log(divForm.querySelector("#month-val").value);
       console.log(convert(divForm.querySelector("#energy-val").value, divForm.querySelector("#month-val").value, divForm.querySelector("#select-state").value))
+      localStorage.setItem("calculo", convert(divForm.querySelector("#energy-val").value, divForm.querySelector("#month-val").value, divForm.querySelector("#select-state").value));
     
     });
 
