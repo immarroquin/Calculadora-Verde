@@ -1,5 +1,5 @@
-import { form } from './view/form.js';
-import { solutions } from './view/solutions.js';
+const  formExport  = require('./view/form.js') ;
+const  solutions  = require('./view/solutions.js') ;
 
  const views = (hash) => {
   const containerRoute = document.getElementById('containerAll');
@@ -7,7 +7,7 @@ import { solutions } from './view/solutions.js';
 
   switch (hash) {
     case '':
-      containerRoute.appendChild(form());
+      containerRoute.appendChild(formExport());
       break;
     case '#/solutions':
       containerRoute.appendChild(solutions());
@@ -16,7 +16,7 @@ import { solutions } from './view/solutions.js';
       containerRoute.innerHTML = 'Ups Error 404';
   }
 };
-export const routes = (hash) => {
+ const routes = (hash) => {
     if (hash === '#/') {
       //si no funciona colocar #/ en ves de ''
       return views(hash);
@@ -26,3 +26,5 @@ export const routes = (hash) => {
     }
     return views(hash);
   };
+
+  module.exports=routes;

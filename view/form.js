@@ -1,8 +1,7 @@
-
-export const form = () => {
-    const divForm = document.createElement('div');
-    divForm.setAttribute('class', 'div-form ');
-    const viewForm = ` 
+const formExport = () => {
+  const divForm = document.createElement("div");
+  divForm.setAttribute("class", "div-form ");
+  const viewForm = ` 
     <section class=" section-hdr center-align">
       <img src='img/logo.png' alt='logo' id='logo' class='responsive-img' width='100'/>
       <p class= 'title'>Caribe</p>
@@ -34,20 +33,20 @@ export const form = () => {
     <div class=" container-form responsive">
     <div class="section-form ">
       <form  class="responsive ">
-        <p class= 'question'>Pregunta 1dsdsddddddddddd</p>
-        <input  type="text" placeholder="12345kg" />
-        <p class= 'question '>Pregunta 2 </p>
-        <input  type="text" placeholder="12345kg" />
-        <p class= 'question '>Pregunta 3</p>
-        <input  type="text" placeholder="12345kg" />
-        <p class= 'question'>Pregunta 4</p>
-        <input  type="text" placeholder="12345kg" />
+      <p class= 'question'>¿Cual es tu consumo de energia anual?</p>
+       <input class="inputs1" type="text" placeholder="1000 MXN" /> 
+       <p class= 'question '>¿Cual es tu consumo de agua anual?</p> 
+       <input class="inputs" type="text" placeholder="1000 MXN"/> 
+       <p class= 'question '>¿Cual es tu consumo de gas anual?</p> 
+       <input class="inputs" type="text" placeholder="1000 MXN"/> 
         <div class="div-btn-clo">
         <a href='#/solutions' class="btn-clo waves-effect waves-light btn">CALCULAR</a>
         </div>
       </form>
     </div> 
-    </div>`
-    divForm.innerHTML = viewForm;
-    return divForm 
-}
+    </div>`;
+  divForm.innerHTML = viewForm;
+  return divForm;
+};
+
+module.exports = formExport;

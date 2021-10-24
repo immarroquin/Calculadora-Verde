@@ -1,8 +1,9 @@
-import { form } from "./view/form.js";
-import { routes } from "./router.js";
+
+const  routes  = require("./router.js");
+const  formExport  = require("./view/form.js");
 
 const init = () => {
-  document.getElementById('containerAll').appendChild(form())
+  document.getElementById('containerAll').appendChild(formExport())
   routes(window.location.hash);
   window.addEventListener("hashchange", () => {
     routes(window.location.hash);
