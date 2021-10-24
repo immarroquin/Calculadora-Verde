@@ -9,7 +9,7 @@ export const solutions = () => {
     </section>
     <div class=' content-result'>
   <h2 class= 'result'>${parseFloat(localStorage.getItem("calculo")*1000).toFixed(2)}</h2>
-  <p class='unit-mass'>gs</p>
+  <p class='unit-mass'>kg Co2</p>
 </div>
 <section class=" center-align">
 <div class='content-equivalence'>
